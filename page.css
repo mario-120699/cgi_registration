@@ -1,0 +1,26 @@
+body
+{
+    background-color: lavender;
+}
+
+h1
+{
+    color: gold;
+    text-align: center;
+    font-family: cursive;
+    border: 2px solid Violet;
+}
+
+h3
+{
+    color: red;
+    margin: 10px;
+    font-family: cursive;
+}
+
+p
+{
+    color: darkred;
+    margin: 5px;
+    font-family: monospace;
+}

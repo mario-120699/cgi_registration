@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="/page.css" rel="stylesheet" type="text/css">
+    <title>Students Registration</title>
+</head>
+<body>
+    <h1>Students Registration</h1>
+    <h3>Please fill all the fields 5-4-3-3-2-1</h3>
+    <form action="answer.py" method="get">
+        <p>First name:</p>
+        <input type="text" name="First_name">
+        <p>Email:</p>
+        <input type="email" name="Email">
+        <p>Your class</p>
+            <select name="class">
+                <option value="1F">1F</option>
+                <option value="2F">2F</option>
+                <option value="3F">3F</option>
+                <option value="4F">4F</option>
+                <option value="5F">5F</option>
+            </select>
+        <p>Time Preference</p>
+            <input type="checkbox" name="Time_preference" value="morning">morning<br>
+            <input type="checkbox" name="Time_preference" value="afternoon">afternoon<br>
+            <input type="checkbox" name="Time_preference" value="evening">evening<br>
+        <p>Approval:</p>
+            <input type="radio" name="approval" value="1(Low)">1(Low)<br>
+            <input type="radio" name="approval" value="2">2<br>
+            <input type="radio" name="approval" value="3(Normal)">3(Normal)<br>
+            <input type="radio" name="approval" value="4">4<br>
+            <input type="radio" name="approval" value="5(High)">5(High)<br>
+         <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
